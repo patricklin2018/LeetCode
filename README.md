@@ -3,7 +3,7 @@
 #### Algorithmn
 |#|Title|Type|Solution|
 |:-:|:---:|:--------:|:--:|:--:|
-|1|Two Sum|数组、哈希|[solution](https://github.com/patricklin2018/LeetCode/tree/master/code/Two%20Sum)|
+|1|Two Sum|数组、哈希|[solution](https://github.com/patricklin2018/LeetCode/tree/master/code/1%20-%20Two%20Sum)|
 |2|Add Two Numbers|Medium|[C++](https://github.com/patricklin2018/LeetCode/tree/master/code/2%20-%20Add%20Two%20Numbers)|
 |8|String to Integer(atoi)|Easy|[C++](https://github.com/patricklin2018/LeetCode/tree/master/code/8%20-%20String%20to%20Integer(atoi))|
 |13|Roman to Integer|Easy|[C++](https://github.com/patricklin2018/LeetCode/tree/master/code/13%20-%20Roman%20to%20Integer)|
