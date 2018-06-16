@@ -1,11 +1,11 @@
 ## LeetCode
 
 #### Algorithmn
-|#|Title|Type|C++|Java|
-|:-:|---|:--------:|:--:|:--:|
-|1|Two Sum|数组、哈希|[链接](https://github.com/patricklin2018/LeetCode/tree/master/code/1%20-%20Two%20Sum)|
-|2|Add Two Numbers|初等数学|[链接](https://github.com/patricklin2018/LeetCode/tree/master/code/2%20-%20Add%20Two%20Numbers)|
-|3|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/)|字符串||[Java](https://github.com/patricklin2018/LeetCode/tree/master/code/3-LongestSubstringWithoutRepeatingCharacters/java/lengthOfLongestSubstring.java)
+|#|Title|Chinese|Tag|Solution|
+|:-:|---|---|:--------:|:--:|:--:|
+|1|Two Sum|两数之和|Array,Hash|[link](code/1-TwoSum/)|
+|2|Add Two Numbers|两数相加|math|[link](code/2-AddTwoNumbers/) |
+|3|Longest Substring Without Repeating Characters|无重复字符的最长子串|string|[link](3-LongestSubstringWithoutRepeatingCharacters)
 |8|String to Integer(atoi)|Easy|[C++](https://github.com/patricklin2018/LeetCode/tree/master/code/8%20-%20String%20to%20Integer(atoi))|
 |13|Roman to Integer|Easy|[C++](https://github.com/patricklin2018/LeetCode/tree/master/code/13%20-%20Roman%20to%20Integer)|
 |16|3Sum Closest|Medium|[C++](https://github.com/patricklin2018/LeetCode/tree/master/code/16%20-%203Sum%20Closest)|

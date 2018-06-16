@@ -18,9 +18,9 @@ public:
              }
              );
         
-        auto p_left=newVec.begin();
-        auto p_right=newVec.end()-1;
-        num=p_left->first+p_right->first;
+        auto p_left = newVec.begin();
+        auto p_right = newVec.end()-1;
+        num = p_left->first + p_right->first;
         
         while (num!=target) {
             if (num<target) {
@@ -29,7 +29,7 @@ public:
             else{
                 p_right--;
             }
-            num=p_left->first+p_right->first;
+            num=p_left->first + p_right->first;
         }
         
         return vector<int>{p_left->second, p_right->second};
