@@ -13,5 +13,5 @@ Output: 7 -> 0 -> 8
 
 | solution | C++ | Java
 |---|---|---|
-| 递归 | [cpp](https://github.com/patricklin2018/LeetCode/tree/master/code/2%20-%20Add%20Two%20Numbers/coo/Solution2.cpp)   | [java](https://github.com/patricklin2018/LeetCode/tree/master/code/2%20-%20Add%20Two%20Numbers/java/Solution2.java) |
-| 非递归 | [cpp](https://github.com/patricklin2018/LeetCode/tree/master/code/2%20-%20Add%20Two%20Numbers/coo/Solution.cpp)  | [java](https://github.com/patricklin2018/LeetCode/tree/master/code/2%20-%20Add%20Two%20Numbers/java/Solution.java)  |
+| 递归 | [cpp](https://github.com/patricklin2018/LeetCode/blob/master/code/2%20-%20Add%20Two%20Numbers/cpp/solution2.cpp)   | [java](https://github.com/patricklin2018/LeetCode/tree/master/code/2%20-%20Add%20Two%20Numbers/java/Solution2.java) |
+| 非递归 | [cpp](https://github.com/patricklin2018/LeetCode/blob/master/code/2%20-%20Add%20Two%20Numbers/cpp/solution.cpp)  | [java](https://github.com/patricklin2018/LeetCode/tree/master/code/2%20-%20Add%20Two%20Numbers/java/Solution.java)  |
