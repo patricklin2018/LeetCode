@@ -5,7 +5,7 @@ import java.util.Map;
  * @author Patrick-lenovo
  * @create 2018/6/14 14:17
  **/
-class Solution {
+class twoSum {
 
     public int[] twoSum(int[] nums, int target) {
         // value : key
