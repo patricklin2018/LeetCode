@@ -5,8 +5,8 @@
 |:-:|---|---|:--------:|:--:|
 |1|Two Sum|两数之和|Array,Hash|[link](code/1-TwoSum/)|
 |2|Add Two Numbers|两数相加|math|[link](code/2-AddTwoNumbers/) |
-|3|Longest Substring Without Repeating Characters|无重复字符的最长子串|string|[link](3-LongestSubstringWithoutRepeatingCharacters)
-|8|String to Integer(atoi)|Easy|[C++](https://github.com/patricklin2018/LeetCode/tree/master/code/8%20-%20String%20to%20Integer(atoi))|
+|3|Longest Substring Without Repeating Characters|无重复字符的最长子串|string|[link](code/3-LongestSubstringWithoutRepeatingCharacters)
+|8|String to Integer(atoi)|字符串转整数|string|[link](code/8-StringtoInteger(atoi))|
 |13|Roman to Integer|Easy|[C++](https://github.com/patricklin2018/LeetCode/tree/master/code/13%20-%20Roman%20to%20Integer)|
 |16|3Sum Closest|Medium|[C++](https://github.com/patricklin2018/LeetCode/tree/master/code/16%20-%203Sum%20Closest)|
 |21|Merge Two Sorted Lists|Easy|[C++](https://github.com/patricklin2018/LeetCode/tree/master/code/21%20-%20Merge%20Two%20Sorted%20Lists)|
