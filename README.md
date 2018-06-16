@@ -2,7 +2,7 @@
 
 #### Algorithmn
 |#|Title|Chinese|Tag|Solution|
-|:-:|---|---|:--------:|:--:|:--:|
+|:-:|---|---|:--------:|:--:|
 |1|Two Sum|两数之和|Array,Hash|[link](code/1-TwoSum/)|
 |2|Add Two Numbers|两数相加|math|[link](code/2-AddTwoNumbers/) |
 |3|Longest Substring Without Repeating Characters|无重复字符的最长子串|string|[link](3-LongestSubstringWithoutRepeatingCharacters)
