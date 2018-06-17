@@ -12,64 +12,65 @@
 |21|Merge Two Sorted Lists|合并两个有序链表|linked list|[link](code/21-MergeTwoSortedLists)|
 |24|Swap Nodes in Pairs|两两交换链表中的节点|linked list|[link](code/24-SwapNodesinPairs)|
 |26|Remove Duplicates from Sorted Array|删除排序数组中的重复项|two pointers, array|[link](code/26-RemoveDuplicatesfromSortedArray)|
-|27|Remove Element|Easy|[C++](code/27%20-%20Remove%20Element)|
-|31|Next Permutation|Medium|[C++](code/31%20-%20Next%20Permutation)|
-|33|Search in Rotated Sorted Array|Medium|[C++](code/33%20-%20Search%20in%20Rotated%20Sorted%20Array)|
-|34|Search for a Range|Medium|[C++](code/34%20-%20Search%20for%20a%20Range)|
-|35|Search Insert Position|Easy|[C++](code/35%20-%20Search%20Insert%20Position)|
-|50|Pow(x, n)|Medium|[C++](code/50%20-%20Pow(x,%20n))|
-|66|Plus One|Easy|[C++](code/66%20-%20Plus%20One)|
-|69|Sqrt(x)|Easy|[C++](code/69%20-%20Sqrt(x))|
-|74|Search a 2D Matrix|Medium|[C++](code/74%20-%20Search%20a%202D%20Matrix)|
-|81|Search in Rotated Sorted Array II|Medium|[C++](code/81%20-%20Search%20in%20Rotated%20Sorted%20Array%20II)|
-|89|Gray Code|Medium|[C++](code/89%20-%20Gray%20Code)|
-|100|Same Tree|Easy|[C++](code/100%20-%20Same%20Tree)|
-|101|Symmetric Tree|Easy|[C++](code/101%20-%20Symmetric%20Tree)|
-|102|Binary Tree Level Order Traversal|Easy|[C++](code/102%20-%20Binary%20Tree%20Level%20Order%20Traversal)|
-|104|Maximum Depth of Binary Tree|Easy|[C++](code/104%20-%20Maximum%20Depth%20of%20Binary%20Tree)|
-|107|Binary Tree Level Order Traversal II|Easy|[C++](code/107%20-%20Binary%20Tree%20Level%20Order%20Traversal%20II)|
-|118|Pascal's Triangle|Easy|[C++](code/118%20-%20Pascal's%20Triangle)|
-|136|Single Number|Easy|[C++](code/136%20-%20Single%20Number)|
-|141|C++ed List Cycle|Easy|[C++](code/141%20-%20C++ed%20List%20Cycle)|
-|146|LRU Cache|Hard|[C++](code/146%20-%20LRU%20Cache)|
-|153|Find Minimum in Rotated Sorted Array|Medium|[C++](code/153%20-%20Find%20Minimum%20in%20Rotated%20Sorted%20Array)|
-|154|Find Minimum in Rotated Sorted Array II|Hard|[C++](code/154%20-%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II)|
-|162|Find Peak Element|Medium|[C++](code/162%20-%20Find%20Peak%20Element)|
-|168|Excel Sheet Column Title|Easy|[C++](code/168%20-%20Excel%20Sheet%20Column%20Title)|
-|169|Majority Element|Easy|[C++](code/169%20-%20Majority%20Element)|
-|171|Excel Sheet Column Number|Easy|[C++](code/171%20-%20Excel%20Sheet%20Column%20Number)|
-|189|Rotate Array|Easy|[C++](code/189%20-%20Rotate%20Array)|
-|191|Number of 1 Bits|Easy|[C++](code/191%20-%20Number%20of%201%20Bits)|
-|198|House Robber|Easy|[C++](code/198%20-%20House%20Robber)|
-|206|Reverse C++ed List|Easy|[C++](code/206%20-%20Reverse%20C++ed%20List)|
-|217|Contains Duplicate|Easy|[C++](code/217%20-%20Contains%20Duplicate)|
-|223|Rectangle Area|Medium|[C++](code/223%20-%20Rectangle%20Area)|
-|224|Basic Calculator|Hard|[C++](code/224%20-%20Basic%20Calculator)|
-|226|Invert Binary Tree|Easy|[C++](code/226%20-%20Invert%20Binary%20Tree)|
-|227|Basic Calculator II|Medium|[C++](code/227%20-%20Basic%20Calculator%20II)|
-|235|Lowest Common Ancestor of a Binary Search Tree|Easy|[C++](code/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree)|
-|237|Delete Node in a C++ed List|Easy|[C++](code/237%20-%20Delete%20Node%20in%20a%20C++ed%20List)|
-|240|Search a 2D Matrix II|Medium|[C++](code/240%20-%20Search%20a%202D%20Matrix%20II)|
-|242|Valid Anagram|Easy|[C++](code/242%20-%20Valid%20Anagram)|
-|258|Add Digits|Easy|[C++](code/258%20-%20Add%20Digits)|
-|278|First Bad Version|Easy|[C++](code/278%20-%20First%20Bad%20Version)|
-|279|Perfect Squares|Easy|[C++](code/279%20-%20Perfect%20Squares)|
-|283|Move Zeroes|Easy|[C++](code/283%20-%20Move%20Zeroes)|
-|290|Word Pattern|Easy|[C++](code/290%20-%20Word%20Pattern)|
-|292|Nim Game|Easy|[C++](code/292%20-%20Nim%20Game)|
-|319|Bulb Switcher|Medium|[C++](code/319%20-%20Bulb%20Switcher)|
-|342|Power of Four|Easy|[C++](code/342%20-%20Power%20of%20Four)|
-|344|Reverse String|Easy|[C++](code/344%20-%20Reverse%20String)|
-|345|Reverse Vowels of a String|Easy|[C++](code/345%20-%20Reverse%20Vowels%20of%20a%20String)|
-|349|Intersection of Two Arrays|Easy|[C++](code/349%20-%20Intersection%20of%20Two%20Arrays)|
-|350|Intersection of Two Arrays II|Easy|[C++](code/350%20-%20Intersection%20of%20Two%20Arrays%20II)|
-|371|Sum Of Two Integers|Easy|[C++](code/371%20-%20Sum%20Of%20Two%20Integers)|
-|387|First Unique Character in a String|Easy|[C++](code/387%20-%20First%20Unique%20Character%20in%20a%20String)|
-|389|Find The Difference|Easy|[C++](code/389%20-%20Find%20The%20Difference)|
-|396|Rotate Function|Easy|[C++](code/396%20-%20Rotate%20Function)|
-|401|Binary Watch|Easy|[C++](code/401%20-%20Binary%20Watch)|
-|415|Add Strings|Easy|[C++](code/415%20-%20Add%20Strings)|
-|434|Number of Segments in a String|Easy|[C++](code/434%20-%20Number%20of%20Segments%20in%20a%20String)|
-|436|Find Right Interval|Medium|[C++](code/436%20-%20Find%20Right%20Interval)|
-|441|Arranging Coins|Easy|[C++](code/441%20-%20Arranging%20Coins)|
-|462|Minimum Moves to Equal Array Elements II|Medium|[C++](code/462%20-%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II)|
+|27|Remove Element|移除元素|array,two pointers|[link](code/27-RemoveElement)|
+|31|Next Permutation|下一个排列|array|[link](code/31-NextPermutation)|
+|33|Search in Rotated Sorted Array|搜索旋转排序数组|array,binary search|[link](code/33-SearchinRotatedSortedArray)|
+|34|Search for a Range|搜索范围|array,binary search|[link](code/34-SearchforaRange)|
+|35|Search Insert Position|搜索插入位置|array,binary search|[link](code/35-SearchInsertPosition)|
+|50|Pow(x, n)|Pow(x, n)|math, binary search|[link](code/50-Pow(x,n))|
+|66|Plus One|加一|array, math|[link](code/66-PlusOne)|
+|69|Sqrt(x)|x 的平方根|math, binary search|[link](code/69-Sqrt(x))|
+|74|Search a 2D Matrix|搜索二维矩阵|array, binary search|[link](code/74-Searcha2DMatrix)|
+|81|Search in Rotated Sorted Array II|搜索旋转排序数组 II|array,binary search|[link](code/81-SearchinRotatedSortedArrayII)|
+|89|Gray Code|格雷编码|backtracking|[link](code/89-GrayCode)|
+|100|Same Tree|相同的树|tree,dfs|[link](code/100-SameTree)|
+|101|Symmetric Tree|对称二叉树|tree,bfs,dfs|[link](code/101-SymmetricTree)|
+|102|Binary Tree Level Order Traversal|二叉树的层次遍历|tree,bfs|[link](code/102-BinaryTreeLevelOrderTraversal)|
+|104|Maximum Depth of Binary Tree|二叉树的最大深度|tree,dfs|[link](code/104-MaximumDepthofBinaryTree)|
+|107|Binary Tree Level Order Traversal II|二叉树的层次遍历 II|tree,bfs|[link](code/107-BinaryTreeLevelOrderTraversalII)|
+|118|Pascal's Triangle|杨辉三角|array|[link](code/118-Pascal'sTriangle)|
+|136|Single Number|只出现一次的数字|hash table,bit manipulation|[link](code/136-SingleNumber)|
+|141|linked List Cycle|环形链表|linked list,two pointers|[link](code/141-C++edListCycle)|
+|146|LRU Cache|LRU缓存机制|design|[link](code/146-LRUCache)|
+|153|Find Minimum in Rotated Sorted Array|寻找旋转排序数组中的最小值|binary search,array|[link](code/153-FindMinimuminRotatedSortedArray)|
+|154|Find Minimum in Rotated Sorted Array II|寻找旋转排序数组中的最小值 II|array,binary search|[link](code/154-FindMinimuminRotatedSortedArrayII)|
+|162|Find Peak Element|找峰值|array,binary search|[link](code/162-FindPeakElement)|
+|168|Excel Sheet Column Title|Excel表列名称|math|[link](code/168-ExcelSheetColumnTitle)|
+|169|Majority Element|求众数|bit manipulation,array,divide and conquer|[link](code/169-MajorityElement)|
+|171|Excel Sheet Column Number|Excel表列序号|math|[link](code/171-ExcelSheetColumnNumber)|
+|189|Rotate Array|旋转数组|array|[link](code/189-RotateArray)|
+|191|Number of 1 Bits|位1的个数|bit manipulation|[link](code/191-Numberof1Bits)|
+|198|House Robber|打家劫舍|dp|[link](code/198-HouseRobber)|
+|206|Reverse linked List|反转链表|linked list|[link](code/206-ReverseC++edList)|
+|217|Contains Duplicate|存在重复元素|array,hash table|[link](code/217-ContainsDuplicate)|
+|223|Rectangle Area|矩形面积|math|[link](code/223-RectangleArea)|
+|224|Basic Calculator|基本计算器|math,stack|[link](code/224-BasicCalculator)|
+|226|Invert Binary Tree|翻转二叉树|tree|[link](code/226-InvertBinaryTree)|
+|227|Basic Calculator II|基本计算器 II|string|[link](code/227-BasicCalculatorII)|
+|235|Lowest Common Ancestor of a Binary Search Tree|二叉搜索树的最近公共祖先|tree|[link](code/LowestCommonAncestorofaBinarySearchTree)|
+|236|Lowest Common Ancestor of a Binary Tree|二叉树的最近公共祖先|tree|[link](code/236-LowestCommonAncestorOfABinarySearchTree)
+|237|Delete Node in a linked List|删除链表中的节点|linked list|[link](code/237-DeleteNodeinaC++edList)|
+|240|Search a 2D Matrix II|搜索二维矩阵 II|math,divide and conquer|[link](code/240-Searcha2DMatrixII)|
+|242|Valid Anagram|效的字母异位词|sort,hash table|[link](code/242-ValidAnagram)|
+|258|Add Digits|各位相加|math|[link](code/258-AddDigits)|
+|278|First Bad Version|第一个错误的版本|math|[link](code/278-FirstBadVersion)|
+|279|Perfect Squares|完全平方数|bfs,math,dp|[link](code/279-PerfectSquares)|
+|283|Move Zeroes|移动零|array,two pointers|[link](code/283-MoveZeroes)|
+|290|Word Pattern|单词模式|hash table|[link](code/290-WordPattern)|
+|292|Nim Game|Nim游戏|brainteaser|[link](code/292-NimGame)|
+|319|Bulb Switcher|灯泡开关|brainteaser,math|[link](code/319-BulbSwitcher)|
+|342|Power of Four|4的幂|bit manipulation|[link](code/342-PowerofFour)|
+|344|Reverse String|反转字符串|two pointers,string|[link](code/344-ReverseString)|
+|345|Reverse Vowels of a String|反转字符串中的元音字母|string,two pointers|[link](code/345-ReverseVowelsofaString)|
+|349|Intersection of Two Arrays|两个数组的交集|sort,hash table,two pointers, binary search|[link](code/349-IntersectionofTwoArrays)|
+|350|Intersection of Two Arrays II|两个数组的交集 II|sort,hash table,two pointers, binary search|[link](code/350-IntersectionofTwoArraysII)|
+|371|Sum Of Two Integers|两整数之和|bit manipulation|[link](code/371-SumOfTwoIntegers)|
+|387|First Unique Character in a String|符串中的第一个唯一字符|hash table,string|[link](code/387-FirstUniqueCharacterinaString)|
+|389|Find The Difference|找不同|bit manipulation,hash table|[link](code/389-FindTheDifference)|
+|396|Rotate Function|旋转函数|math|[link](code/396-RotateFunction)|
+|401|Binary Watch|二进制手表|bit manipulation,backtracking|[link](code/401-BinaryWatch)|
+|415|Add Strings|字符串相加|math|[link](code/415-AddStrings)|
+|434|Number of Segments in a String|字符串中的单词数|string|[link](code/434-NumberofSegmentsinaString)|
+|436|Find Right Interval|寻找右区间|binary search|[link](code/436-FindRightInterval)|
+|441|Arranging Coins|列硬币|math,binary search|[link](code/441-ArrangingCoins)|
+|462|Minimum Moves to Equal Array Elements II|最少移动次数使数组元素相等 II|math|[link](code/462-MinimumMovestoEqualArrayElementsII)|
