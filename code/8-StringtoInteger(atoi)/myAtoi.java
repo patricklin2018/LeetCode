@@ -6,8 +6,6 @@ public class myAtoi {
     public int myAtoi(String str) {
         if (str.length() == 0)
             return 0;
-
-        int int_max = 2147483647, int_min = -2147483648;
         int size = str.length();
 
         int i = 0;
@@ -18,6 +16,7 @@ public class myAtoi {
             }
         }
 
+        // 检查 '+' '-'
         int indicator = 1;
         if (i < size && (str.charAt(i) == '+' || str.charAt(i) == '-')) {
             indicator = str.charAt(i) == '+' ? 1 : -1;
@@ -27,9 +26,11 @@ public class myAtoi {
         int res = 0;
         while (i < size && str.charAt(i) >= '0' && str.charAt(i) <= '9') {
             int val = (str.charAt(i++) - '0');
+            // 检查越界
             if (Integer.MAX_VALUE / 10 < res || (Integer.MAX_VALUE / 10 == res && Integer.MAX_VALUE % 10 < val)) {
                 return indicator == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
+            // 计算和
             res = res * 10 + val;
         }
 

@@ -3,3 +3,6 @@
 /out
 out
 *.iml
+
+# vscode
+.vscode

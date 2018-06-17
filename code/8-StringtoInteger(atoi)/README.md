@@ -1,4 +1,4 @@
-﻿## String to Integer(atoi)
+﻿## 8. String to Integer(atoi)
 
 ### Problem
 
@@ -65,4 +65,4 @@ Explanation: The number "-91283472332" is out of the range of a 32-bit signed in
 
 | 方法 | 备注 | C++ | Java |
 |---|---|---|---|
-| solution | string |[cpp](cpp/myAtoi.cpp)|[java](java/myAtoi.java)| 
+| solution | string |[cpp](myAtoi.cpp)|[java](myAtoi.java)| 

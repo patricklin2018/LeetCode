@@ -1,4 +1,4 @@
-## Longest Substring Without Repeating Characters
+## 3. Longest Substring Without Repeating Characters
 
 ### Problem
 Given a string, find the length of the longest substring without repeating characters.
@@ -17,4 +17,4 @@ Given `"pwwkew"`, the answer is `"wke"`, with the length of 3. Note that the ans
 
 | 方法 | 备注 | C++ | Java |
 |---|---|---|---|
-| solution | hash | |[java](java/lengthOfLongestSubstring.java) | 
+| solution | hash | |[java](lengthOfLongestSubstring.java) | 
