@@ -5,7 +5,8 @@
 |:-:|---|---|:--------:|:--:|
 |1|Two Sum|两数之和|array,hash|[link](code/1-TwoSum/)|
 |2|Add Two Numbers|两数相加|math|[link](code/2-AddTwoNumbers/) |
-|3|Longest Substring Without Repeating Characters|无重复字符的最长子串|string|[link](code/3-LongestSubstringWithoutRepeatingCharacters)
+|3|Longest Substring Without Repeating Characters|无重复字符的最长子串|string|[link](code/3-LongestSubstringWithoutRepeatingCharacters)|
+|5|Longest Palindromic Substring|最长回文子串|string,dp|[link](code/5-longestPalindrome)|
 |8|String to Integer(atoi)|字符串转整数|string|[link](code/8-StringtoInteger(atoi))|
 |13|Roman to Integer|罗马数字转整数|number,string|[link](code/13-RomantoInteger)|
 |16|3Sum Closest|最接近的三数之和|two pointers,array|[link](code/16-3SumClosest)|
