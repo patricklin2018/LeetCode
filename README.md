@@ -75,3 +75,4 @@
 |436|Find Right Interval|寻找右区间|binary search|[link](code/436-FindRightInterval)|
 |441|Arranging Coins|列硬币|math,binary search|[link](code/441-ArrangingCoins)|
 |462|Minimum Moves to Equal Array Elements II|最少移动次数使数组元素相等 II|math|[link](code/462-MinimumMovestoEqualArrayElementsII)|
+|781|Rabbits in Forest|森林中的兔子|math,hash|[link](code/781-Rabbits_in_Forest)|
