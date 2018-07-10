@@ -30,19 +30,21 @@
 
 ### 思路
 
-需要注意的两点：
+需要注意的三点：
 
-1. 说 `0` 的，改颜色仅一只，直接加 `1`
+1. 说 `0` 的，改颜色仅一只，直接加 `1`。
 
-2. 如果两只说 `1`，可能颜色相同，但是如果三只说 `1`，那么，这三只至少两种颜色。因此，我们需要一个 `Map<Integer, Integer>` 来记录说该数字的次数。
+2. 如果两只说 `1`，可能颜色相同，但是如果三只说 `1`，那么，这三只至少两种颜色。因此，我们需要一个哈希表来记录说该数字的次数，这里我们采用一个 `int[1000]` 数组来作为哈希表。
+
+3. 如果记录次数超过对应 key + 1，则值归为 1，该 1 为当前该数的记录，而不是归 0。
 
 因此，步骤如下：
 ```
+遍历数组
 1. 如果数字为 0， 统计 +1
-2. 如果 Map 中无该数字，则 Map 加入该数字，值初始为 1。并统计加上 该数字 + 1 （1 为说话的兔子）
-3. 如果 Map 中有该数字， Map 中对应的值：
-   a) 小于 该数字 + 1，则将该值 + 1， 统计不变
-   b）大于 该数字 + 1，则将该值初始化为 1，统计加 该数字 + 1
+2. 对应 hash表 的值 +1，所得到的值
+    a) 如果等于 1， 则统计加 (该数字 + 1)
+    b) 如果大于 (该数字 + 1)，该值归 1, 统计加 (该数字 + 1)
 ```
 
 ### 代码
@@ -56,25 +58,22 @@ public int numRabbits(int[] answers) {
     }
 
     int counter = 0;
-    Map<Integer, Integer> hash = new HashMap<>();
+    int[] hash = new int[1000];
     for (int i = 0; i < answers.length; ++i) {
 
         if (answers[i] == 0) {
             counter += 1;
             continue;
         }
-        else if (! hash.containsKey(answers[i])) {
-            hash.put(answers[i], 1);
+
+        hash[answers[i]] ++;
+
+        if (hash[answers[i]] == 1) {
             counter += answers[i] + 1;
         }
-        else {
-            if (hash.get(answers[i]) < (answers[i] + 1)) {
-                hash.put(answers[i], hash.get(answers[i]) + 1);
-            }
-            else {
-                hash.put(answers[i], 1);
-                counter += answers[i] + 1;
-            }
+        else if (hash[answers[i]] > answers[i] + 1) {
+            hash[answers[i]] = 1;
+            counter += answers[i] + 1;
         }
     }
 

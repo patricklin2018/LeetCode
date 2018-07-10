@@ -18,29 +18,31 @@ public class Solution {
         }
 
         int counter = 0;
-        Map<Integer, Integer> hash = new HashMap<>();
+        int[] hash = new int[1000];
         for (int i = 0; i < answers.length; ++i) {
 
             if (answers[i] == 0) {
                 counter += 1;
                 continue;
             }
-            else if (! hash.containsKey(answers[i])) {
-                hash.put(answers[i], 1);
+
+            hash[answers[i]] ++;
+
+            if (hash[answers[i]] == 1) {
                 counter += answers[i] + 1;
             }
-            else {
-                if (hash.get(answers[i]) < (answers[i] + 1)) {
-                    hash.put(answers[i], hash.get(answers[i]) + 1);
-                }
-                else {
-                    hash.put(answers[i], 1);
-                    counter += answers[i] + 1;
-                }
+            else if (hash[answers[i]] > answers[i] + 1) {
+                hash[answers[i]] = 1;
+                counter += answers[i] + 1;
             }
         }
 
         return counter;
+    }
+
+    public static void main(String[] args) {
+        int[] ary = {0,0,1,1,1};
+        System.out.println(new Solution().numRabbits(ary));
     }
 
 }
