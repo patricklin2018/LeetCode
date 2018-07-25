@@ -15,8 +15,8 @@
 |26|Remove Duplicates from Sorted Array|删除排序数组中的重复项|two pointers, array|[link](code/26-RemoveDuplicatesfromSortedArray)|
 |27|Remove Element|移除元素|array,two pointers|[link](code/27-RemoveElement)|
 |31|Next Permutation|下一个排列|array|[link](code/31-NextPermutation)|
-|33|Search in Rotated Sorted Array|搜索旋转排序数组|array,binary search|[link](code/33-SearchinRotatedSortedArray)|
-|34|Search for a Range|搜索范围|array,binary search|[link](code/34-SearchForARange)|
+|33|Search in Rotated Sorted Array|搜索旋转排序数组|array,binary search|[link](code/33)|
+|34|Search for a Range|搜索范围|array,binary search|[link](code/34)|
 |35|Search Insert Position|搜索插入位置|array,binary search|[link](code/35-SearchInsertPosition)|
 |50|Pow(x, n)|Pow(x, n)|math, binary search|[link](code/50-Pow(x,n))|
 |66|Plus One|加一|array, math|[link](code/66-PlusOne)|
