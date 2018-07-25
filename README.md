@@ -28,6 +28,8 @@
 |101|Symmetric Tree|对称二叉树|tree,bfs,dfs|[link](code/101-SymmetricTree)|
 |102|Binary Tree Level Order Traversal|二叉树的层次遍历|tree,bfs|[link](code/102-BinaryTreeLevelOrderTraversal)|
 |104|Maximum Depth of Binary Tree|二叉树的最大深度|tree,dfs|[link](code/104-MaximumDepthofBinaryTree)|
+|105|Construct Binary Tree from Inorder and Postorder Traversal|从中序与后序遍历序列构造二叉树|binary tree,array|[link](code/105)|
+|106|Construct Binary Tree from Inorder and Postorder Traversal|从中序与后序遍历序列构造二叉树|binary tree,array|[link](code/106)|
 |107|Binary Tree Level Order Traversal II|二叉树的层次遍历 II|tree,bfs|[link](code/107-BinaryTreeLevelOrderTraversalII)|
 |118|Pascal's Triangle|杨辉三角|array|[link](code/118-Pascal'sTriangle)|
 |136|Single Number|只出现一次的数字|hash table,bit manipulation|[link](code/136-SingleNumber)|
