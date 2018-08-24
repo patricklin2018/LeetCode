@@ -1,6 +1,5 @@
-## LeetCode
+# LeetCode
 
-#### Algorithmn
 |#|Title|Chinese|Tag|Solution|
 |:-:|---|---|:--------:|:--:|
 |1|Two Sum|两数之和|array,hash|[link](code/No1/)|
