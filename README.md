@@ -19,7 +19,7 @@
 |35|Search Insert Position|搜索插入位置|array,binary search|[link](code/No35/)|
 |50|Pow(x, n)|Pow(x, n)|math, binary search|[link](code/No50/)|
 |66|Plus One|加一|array, math|[link](code/No66/)|
-|69|Sqrt(x)|x 的平方根|math, binary search|[link](code/No69/|
+|69|Sqrt(x)|x 的平方根|math, binary search|[link](code/No69/)|
 |74|Search a 2D Matrix|搜索二维矩阵|array, binary search|[link](code/No74/)|
 |81|Search in Rotated Sorted Array II|搜索旋转排序数组 II|array,binary search|[link](code/No81/)|
 |89|Gray Code|格雷编码|backtracking|[link](code/No89/)|
