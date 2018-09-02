@@ -1,9 +1,8 @@
-##Contains Duplicate
+## 217 - Contains Duplicate
 
 Given an array of integers, find if the array contains any duplicates. Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
 
-
-##Solution:
+## Solution:
 
 利用无序容器进行统计，发现出现次数大于 1 的返回 `true`。
 
@@ -18,3 +17,21 @@ bool containsDuplicate(vector<int>& nums) {
     return false;
 }
 ```
+
+Java 版本：
+
+```java
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        Set<Integer> set = new HashSet();
+        for (int e : nums) {
+            if (set.contains(e)) {
+                return true;
+            }
+            set.add(e);
+        }
+        return false;
+    }
+}
+```
+
