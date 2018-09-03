@@ -45,6 +45,8 @@
 |198|House Robber|打家劫舍|dp|[link](code/No198/)|
 |206|Reverse linked List|反转链表|linked list|[link](code/No206/)|
 |217|Contains Duplicate|存在重复元素|array,hash table|[link](code/No217/)|
+|219|Contains Duplicate II|存在重复元素 II|array,set|[link](code/No219/)|
+|220|Contains Duplicate III|存在重复元素 III|array,bucket sorting|[link](code/No220/)|
 |223|Rectangle Area|矩形面积|math|[link](code/No223/)|
 |224|Basic Calculator|基本计算器|math,stack|[link](code/No224/)|
 |226|Invert Binary Tree|翻转二叉树|tree|[link](code/No226/)|
