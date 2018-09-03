@@ -1,4 +1,6 @@
-##162. Find Peak Element
+# 162. Find Peak Element
+
+## 问题
 
 A peak element is an element that is greater than its neighbors.
 
@@ -10,15 +12,17 @@ You may imagine that `num[-1] = num[n] = -∞`.
 
 For example, in array `[1, 2, 3, 1]`, 3 is a peak element and your function should return the index number 2.
 
-##Solution
+## 思路
 
-循环中处理三种情况:
+采用二分搜索，循环中处理三种情况:
 
 ```
 1. 如果 mid 比 左右两点都大，即为波峰，返回。
 2. 如果 mid 比 前一点小，即左端处于下降姿态，那么 right = mid 往前寻找波峰。
 3. 如果 mid 比 后一点小，即右端处于上升姿态，那么 left  = mid 往后寻找波峰。
 ```
+
+## 实现
 
 >CPP
 
@@ -51,27 +55,25 @@ int findPeakElement(vector<int>& nums) {
 >JAVA
 
 ```java
-public int findPeakElement(int[] nums) {
-    if (nums == null || nums.length == 0){
-    	return -1;
+class Solution {
+    public int findPeakElement(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+        int left = 0, right = nums.length - 1;
+        while (left + 1 < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) {
+                return mid;
+            }
+            else if (nums[mid] < nums[mid - 1]) {
+                right = mid;
+            }
+            else {
+                left = mid;
+            }
+        }
+        return nums[left] >= nums[right] ? left : right;
     }
-    else if (nums.length == 1){
-    	return 0;
-    }
-    int left = 0;
-    int right = nums.length - 1;
-    while (left + 1 < right){
-    	int mid = left + (right - left) / 2;
-    	if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]){
-    		return mid;
-    	}
-    	else if (nums[mid] < nums[mid - 1]){
-    		right = mid;
-    	}
-    	else{
-    		left = mid;
-    	}
-    }
-    return nums[left] >= nums[right] ? left : right;
 }
 ```
