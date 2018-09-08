@@ -1,26 +1,24 @@
-##First Unique Character in a String
+## 387. First Unique Character in a String
 
-Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
+## 问题
 
-Examples:
+给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，则返回 -1。
+
+**案例:**
 
 ```
 s = "leetcode"
-
-return 0.
+返回 0.
 
 s = "loveleetcode",
-
-return 2.
+返回 2.
 ```
 
-Note: 
-
-You may assume the string contain only lowercase letters.
-
-##Solution
+## 思路
 
 利用无序容器建立字母hash表，再根据该字符串顺序，逐一进行查询，是否为 `Unique`。
+
+## 实现
 
 ```cpp
 int firstUniqChar(string s) {
