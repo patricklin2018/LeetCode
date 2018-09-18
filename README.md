@@ -60,6 +60,8 @@
 |240|Search a 2D Matrix II|搜索二维矩阵 II|math,divide and conquer|[link](code/No240/)|
 |242|Valid Anagram|效的字母异位词|sort,hash table|[link](code/242-ValidAnagram)|
 |258|Add Digits|各位相加|math|[link](code/No258/)|
+|263|Ugly Number|丑数|math|[link](code/No263/)|
+|264|Ugly Number II|丑数 II|math, dp|[link](code/No264/)|
 |278|First Bad Version|第一个错误的版本|math|[link](code/No278)|
 |279|Perfect Squares|完全平方数|bfs,math,dp|[link](code/No279)|
 |283|Move Zeroes|移动零|array,two pointers|[link](code/No283)|
