@@ -75,6 +75,7 @@
 |396|Rotate Function|旋转函数|math|[link](code/No396)|
 |401|Binary Watch|二进制手表|bit manipulation,backtracking|[link](code/No401)|
 |409|Longest Palindrome|最长回文串|hash|[link](code/No409)|
+|414|Third Maximum Number|第三大的数|ary|[link](code/No414)|
 |415|Add Strings|字符串相加|math|[link](code/No415)|
 |434|Number of Segments in a String|字符串中的单词数|string|[link](code/No434)|
 |436|Find Right Interval|寻找右区间|binary search|[link](code/No436)|
