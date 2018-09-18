@@ -18,7 +18,7 @@
 |33|Search in Rotated Sorted Array|搜索旋转排序数组|array,binary search|[link](code/No33/)|
 |34|Search for a Range|搜索范围|array,binary search|[link](code/No34/)|
 |35|Search Insert Position|搜索插入位置|array,binary search|[link](code/No35/)|
-|46|Permutations|全排列|backtracing|[link](code/No46/)|
+|46|Permutations|全排列|backtracing|[java](code/No46/)|
 |50|Pow(x, n)|Pow(x, n)|math, binary search|[link](code/No50/)|
 |66|Plus One|加一|array, math|[link](code/No66/)|
 |69|Sqrt(x)|x 的平方根|math, binary search|[link](code/No69/)|
