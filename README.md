@@ -67,6 +67,7 @@
 |283|Move Zeroes|移动零|array,two pointers|[link](code/No283)|
 |290|Word Pattern|单词模式|hash table|[link](code/No290)|
 |292|Nim Game|Nim游戏|brainteaser|[link](code/No292)|
+|313|Super Ugly Number|超级丑数|math|[link](code/No313)|
 |319|Bulb Switcher|灯泡开关|brainteaser,math|[link](code/No319)|
 |342|Power of Four|4的幂|bit manipulation|[link](code/No342)|
 |344|Reverse String|反转字符串|two pointers,string|[link](code/No344)|
