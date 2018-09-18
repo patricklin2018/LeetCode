@@ -54,6 +54,7 @@
 |224|Basic Calculator|基本计算器|math,stack|[link](code/No224/)|
 |226|Invert Binary Tree|翻转二叉树|tree|[link](code/No226/)|
 |227|Basic Calculator II|基本计算器 II|string|[link](code/No227/)|
+|233|Number of Digit One|数字1的个数|math|[java](code/No233/)|
 |236|Lowest Common Ancestor of a Binary Tree|二叉树的最近公共祖先|tree|[link](code/No236/)
 |237|Delete Node in a linked List|删除链表中的节点|linked list|[link](code/No237/)|
 |240|Search a 2D Matrix II|搜索二维矩阵 II|math,divide and conquer|[link](code/No240/)|
