@@ -24,6 +24,7 @@
 |69|Sqrt(x)|x 的平方根|math, binary search|[link](code/No69/)|
 |71|Simplify Path|简化路径|stack, string|[link](code/No71/)|
 |74|Search a 2D Matrix|搜索二维矩阵|array, binary search|[link](code/No74/)|
+|79|Word Search|单词搜索|ary, backtracing|[link](code/No79/)|
 |81|Search in Rotated Sorted Array II|搜索旋转排序数组 II|array,binary search|[link](code/No81/)|
 |89|Gray Code|格雷编码|backtracking|[link](code/No89/)|
 |93|Restore IP Addresses|复原IP地址|string, backtracking|[link](code/No93/)|

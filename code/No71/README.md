@@ -21,6 +21,9 @@
 
 ## 实现
 
+[代码 - Java](Solution.java)
+
+### 1. Java
 ```java
 class Solution {
     public String simplifyPath(String path) {
