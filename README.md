@@ -9,6 +9,7 @@
 |5|Longest Palindromic Substring|最长回文子串|string,dp|[link](code/No5/)|
 |8|String to Integer(atoi)|字符串转整数|string|[link](code/No8/)|
 |13|Roman to Integer|罗马数字转整数|number,string|[link](code/No13/)|
+|14|Longest Common Prefix|最长公共前缀|string|[java](code/No14/)|
 |16|3Sum Closest|最接近的三数之和|two pointers,array|[link](code/No16/)|
 |21|Merge Two Sorted Lists|合并两个有序链表|linked list|[link](code/No21/)|
 |24|Swap Nodes in Pairs|两两交换链表中的节点|linked list|[link](code/No24/)|
@@ -22,9 +23,9 @@
 |50|Pow(x, n)|Pow(x, n)|math, binary search|[link](code/No50/)|
 |66|Plus One|加一|array, math|[link](code/No66/)|
 |69|Sqrt(x)|x 的平方根|math, binary search|[link](code/No69/)|
-|71|Simplify Path|简化路径|stack, string|[link](code/No71/)|
+|71|Simplify Path|简化路径|stack, string|[java](code/No71/)|
 |74|Search a 2D Matrix|搜索二维矩阵|array, binary search|[link](code/No74/)|
-|79|Word Search|单词搜索|ary, backtracing|[link](code/No79/)|
+|79|Word Search|单词搜索|ary, backtracing|[java](code/No79/)|
 |81|Search in Rotated Sorted Array II|搜索旋转排序数组 II|array,binary search|[link](code/No81/)|
 |89|Gray Code|格雷编码|backtracking|[link](code/No89/)|
 |93|Restore IP Addresses|复原IP地址|string, backtracking|[link](code/No93/)|
