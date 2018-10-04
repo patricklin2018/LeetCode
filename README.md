@@ -26,9 +26,9 @@
 |71|Simplify Path|简化路径|stack, string|[java](code/No71/)|
 |74|Search a 2D Matrix|搜索二维矩阵|array, binary search|[link](code/No74/)|
 |79|Word Search|单词搜索|ary, backtracing|[java](code/No79/)|
-|81|Search in Rotated Sorted Array II|搜索旋转排序数组 II|array,binary search|[java](code/No81/)|
+|81|Search in Rotated Sorted Array II|搜索旋转排序数组 II|array,binary search|[java, cpp](code/No81/)|
 |82|Remove Duplicates from Sorted List II|删除排序链表中的重复元素 II|linked list|[java](code/No82/)|
-|83|Remove Duplicates from Sorted List|删除排序链表中的重复元素|linked list|[link](code/No83/)|
+|83|Remove Duplicates from Sorted List|删除排序链表中的重复元素|linked list|[java](code/No83/)|
 |89|Gray Code|格雷编码|backtracking|[link](code/No89/)|
 |93|Restore IP Addresses|复原IP地址|string, backtracking|[link](code/No93/)|
 |100|Same Tree|相同的树|tree,dfs|[link](code/No100/)|
