@@ -36,7 +36,7 @@
 
 ### 实现
 
-[代码-JAVA](src/Solution.java)
+[代码-JAVA](Solution.java)
 
 ```java
 public int longestPalindrome(String s) {

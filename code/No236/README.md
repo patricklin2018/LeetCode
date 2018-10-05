@@ -1,48 +1,92 @@
-###Lowest Common Ancestor of a Binary Search Tree
-***
-Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.
+# 236. 二叉树的最近公共祖先
 
-According to the definition of LCA on [Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor):<br>
- “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
+## 问题
+
+给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
+
+[百度百科](https://baike.baidu.com/item/%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/8918834?fr=aladdin)中最近公共祖先的定义为：“对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（**一个节点也可以是它自己的祖先**）。”
+
+例如，给定如下二叉树:  root = [3,5,1,6,2,0,8,null,null,7,4]
 
 ```
-        _______6______
+        _______3______
        /              \
-    ___2__          ___8__
+    ___5__          ___1__
    /      \        /      \
-   0      _4       7       9
+   6      _2       0       8
          /  \
-         3   5
+         7   4
 ```
 
-For example, the lowest common ancestor (LCA) of nodes 2 and 8 is 6. Another example is LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
-***
-
-###solution:
-
-####solution 1:
-
->利用递归遍历整颗二叉树,知道得到最近的 root
+**示例 1:**
 
 ```
+输入: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
+输出: 3
+解释: 节点 5 和节点 1 的最近公共祖先是节点 3。
+```
+
+**示例 2:**
+
+```
+输入: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4
+输出: 5
+解释: 节点 5 和节点 4 的最近公共祖先是节点 5。因为根据定义最近公共祖先节点可以为节点本身。
+```
+
+**说明:**
+
+- 所有节点的值都是唯一的。
+- p、q 为不同节点且均存在于给定的二叉树中。
+
+## 思路
+
 由 root 开始分别递归搜索其左右子树，遇见 p 或 q 则立即返回，否则返回为空。
 
-那么这样就可以从返回的左右子树纪录， 知道 p , q 在 root 的左子树还是右子树，又或者同在其左或右子树。
+因此，若得到的返回结果，若 `left == null || right == null`，那么该最近公共祖先必然在当前节点的一方，返回不为空的即可。
 
-a) 如果分别在 root 的左右子树，那么 root 必然是其 lowest common ancestor。
-b) 若同在左或右子树，那么先返回的左右子树纪录的节点就是 lowest common ancestor。
+否则，返回当前节点，当前节点必然为最近公共祖先。
+
+## 实现
+
+| 思路  | 代码 | 链接                  |
+| ----- | ---- | --------------------- |
+| 思路1 | Java | [link](Solution.java) |
+| 思路1 | Cpp  | [link](Solution.cpp)  |
+
+### 1. Java
+
+```java
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+         if (root == null || root.val == p.val || root.val == q.val) {
+            return root;
+        }
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        if (left == null) {
+            return right;
+        }
+        if (right == null) {
+            return left;
+        }
+        return root;
+    }
+}
 ```
 
-####solution 2:
+### 2. Cpp
 
->由于该二叉树的特点 ：从树的左往右看，数值依次增大。 
-
-```
-那么我们根据此特点，从根节点开始寻找第一个遇到的介于两者之间的值的节点必为两者的 lowest common ancestor。
-
-a) 若 root 的值比 p , q 值大，则访问 root 的右节点。
-b) 若 root 的值比 p,  q 值小，则访问 root 的左节点。
-c) 否则（root 介于 p , q 之间）， 即可返回 root 为第一个遇到的介于两者之间值的节点(lowest common ancestor)。 
-
+```cpp
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if(!root||root==p||root==q)
+            return root;
+        TreeNode* left=lowestCommonAncestor(root->left,p,q);
+        TreeNode* right=lowestCommonAncestor(root->right,p,q);
+        return !left?right:!right?left:root;
+    }
+};
 ```
 

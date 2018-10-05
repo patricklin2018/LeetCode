@@ -1,4 +1,16 @@
+package No21;
+
 class Solution {
+
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        public ListNode(int x) {
+            val = x;
+        }
+    }
+
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode first = new ListNode(0);
         ListNode ptr = first;

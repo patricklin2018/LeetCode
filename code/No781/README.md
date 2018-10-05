@@ -48,7 +48,7 @@
 ```
 
 ### 代码
-[代码链接 - JAVA](/src/Solution.java)
+[代码链接 - JAVA](Solution.java)
 
 ```java
 public int numRabbits(int[] answers) {

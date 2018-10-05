@@ -1,8 +1,4 @@
-package src;
-
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
+package No781;
 
 /**
  * @author PatrickLin
@@ -11,7 +7,7 @@ import java.util.Map;
  **/
 public class Solution {
 
-    public int numRabbits(int[] answers) {
+    public static int numRabbits(int[] answers) {
 
         if (answers == null || answers.length == 0) {
             return 0;
@@ -42,7 +38,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] ary = {0,0,1,1,1};
-        System.out.println(new Solution().numRabbits(ary));
+        System.out.println(numRabbits(ary));
     }
 
 }

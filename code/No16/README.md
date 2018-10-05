@@ -23,4 +23,4 @@ The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 | 方法 | 备注 | C++ | Java |
 |---|---|---|---|
-| solution | 双指针 |[cpp](threeSumClosest.cpp)|[java](threeSumClosest.java)| 
+| solution | 双指针 |[cpp](threeSumClosest.cpp)|[java](Solution.java)|
