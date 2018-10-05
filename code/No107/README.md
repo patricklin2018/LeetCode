@@ -1,11 +1,12 @@
-﻿##Binary Tree Level Order Traversal II
+# 107. 二叉树的层次遍历 II
 
-Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
+## 问题
 
-**For example:**
+给定一个二叉树，返回其节点值自底向上的层次遍历。 （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
 
-Given binary tree `[3,9,20,null,null,15,7]`,
- 
+例如：
+给定二叉树 `[3,9,20,null,null,15,7]`,
+
 ```
     3
    / \
@@ -13,8 +14,10 @@ Given binary tree `[3,9,20,null,null,15,7]`,
     /  \
    15   7
 ```
+
+返回其自底向上的层次遍历为：
+
 ```
-return its bottom-up level order traversal as:
 [
   [15,7],
   [9,20],
@@ -22,9 +25,24 @@ return its bottom-up level order traversal as:
 ]
 ```
 
-##Solution
+## 思路
 
-使用队列实现中序遍历：
+### 思路1
+
+同样采用队列构建 BFS 过程，不同的是，每次循环将该层的序列插入到最前面。
+
+### 思路2
+
+用递归实现 DFS，根据该 level 插入不同位置。
+
+## 实现
+
+| 思路  | 代码 | 链接                  |
+| ----- | ---- | --------------------- |
+| 思路1 | Cpp  | N/A                   |
+| 思路2 | Java | [link](Solution.java) |
+
+### 思路1 - Cpp
 
 ```cpp
 vector<vector<int>> levelOrderBottom(TreeNode* root) {
@@ -55,5 +73,28 @@ vector<vector<int>> levelOrderBottom(TreeNode* root) {
 			res.insert(res.begin(), elm);
 	}
 	return res;
+}
+```
+
+### 思路2 - Java
+
+```java
+class Solution {
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+        List<List<Integer>> res = new LinkedList<>();
+        levelOrderBottom(res, root, 0);
+        return res;
+    }
+
+    public void levelOrderBottom(List<List<Integer>> res, TreeNode p, int level) {
+        if (p == null)
+            return;
+        if (level >= res.size()) {
+            res.add(0, new LinkedList<Integer>());
+        }
+        levelOrderBottom(res, p.left, level + 1);
+        levelOrderBottom(res, p.right, level + 1);
+        res.get(res.size() - level - 1).add(p.val);
+    }
 }
 ```
