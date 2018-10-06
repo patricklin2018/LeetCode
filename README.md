@@ -30,6 +30,7 @@
 |82|Remove Duplicates from Sorted List II|删除排序链表中的重复元素 II|linked list|[java](code/No82/)|
 |83|Remove Duplicates from Sorted List|删除排序链表中的重复元素|linked list|[java](code/No83/)|
 |89|Gray Code|格雷编码|backtracking|[link](code/No89/)|
+|92|Reverse Linked List II|反转链表 II|linked list|[java](code/No92/)|
 |93|Restore IP Addresses|复原IP地址|string, backtracking|[link](code/No93/)|
 |100|Same Tree|相同的树|tree,dfs|[link](code/No100/)|
 |101|Symmetric Tree|对称二叉树|tree,bfs,dfs|[link](code/No101/)|
@@ -51,7 +52,7 @@
 |189|Rotate Array|旋转数组|array|[link](code/No189/)|
 |191|Number of 1 Bits|位1的个数|bit manipulation|[link](code/No191/)|
 |198|House Robber|打家劫舍|dp|[link](code/No198/)|
-|206|Reverse linked List|反转链表|linked list|[link](code/No206/)|
+|206|Reverse linked List|反转链表|linked list|[java, cpp](code/No206/)|
 |215|Kth Largest Element in an Array|数组中的第K个最大元素|dive and conquer|[java](code/No215/)|
 |217|Contains Duplicate|存在重复元素|array,hash table|[link](code/No217/)|
 |219|Contains Duplicate II|存在重复元素 II|array,set|[link](code/No219/)|
