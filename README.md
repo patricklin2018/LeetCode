@@ -39,6 +39,7 @@
 |105|Construct Binary Tree from Inorder and Postorder Traversal|从中序与后序遍历序列构造二叉树|binary tree,array|[link](code/No105/)|
 |106|Construct Binary Tree from Inorder and Postorder Traversal|从中序与后序遍历序列构造二叉树|binary tree,array|[link](code/No106/)|
 |107|Binary Tree Level Order Traversal II|二叉树的层次遍历 II|tree,bfs|[java, cpp](code/No107/)|
+|112|Path Sum|路径总和|tree,bfs|[java](code/No112/)|
 |118|Pascal's Triangle|杨辉三角|array|[link](code/No118)|
 |136|Single Number|只出现一次的数字|hash table,bit manipulation|[link](code/No136/)|
 |141|linked List Cycle|环形链表|linked list,two pointers|[link](code/No141/)|
